@@ -1,0 +1,9 @@
+.footerText {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #b998b3;
+}

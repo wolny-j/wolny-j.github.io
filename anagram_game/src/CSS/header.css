@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/y2k-neophyte');
+
+.H1{
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 5rem;
+    color: aliceblue;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+    
+}
+
+.H2{
+  font-family: 'Y2K Neophyte', sans-serif;
+  text-align: center;
+  padding-top: 0px;
+  font-size: 1.6rem;
+  color: aliceblue;
+}
+
+  .verticalLine {
+    border: none;
+  border-top: 3px solid #000; /* Adjust the width and color as needed */
+  margin: 10px 0; /* Adjust the margin to position the line */
+  }
+
+  .helpIcon {
+    position: absolute;
+    top: 1%; /* Adjust the top position to provide spacing from the top */
+    right:5%; /* Adjust the right position to place it in the top right corner */
+    display: inline-block;
+    cursor: pointer;
+    
+    color: aliceblue;
+    font-family: 'Y2K Neophyte', sans-serif;
+    font-size: 2rem;
+  }
+.helpIcon:hover {
+  cursor: auto; /* Change cursor to normal on hover */
+}

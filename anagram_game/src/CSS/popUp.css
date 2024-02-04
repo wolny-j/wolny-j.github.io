@@ -1,0 +1,21 @@
+/* popup.css */
+.popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2c3038;
+    border: 2px solid #b998b3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    color: aliceblue;
+    border-radius: 999px;
+    width: 450px;
+    font-family: 'Y2K Neophyte', sans-serif;
+    /* Add more styles as needed */
+  }
+  

@@ -1,0 +1,10 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #313641; /* Set background color for the entire page */
+}
+
+.page {
+    /* You can remove the background-color from here, as it's now set for the entire page in body, html */
+    min-height: 100vh;
+}

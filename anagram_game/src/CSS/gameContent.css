@@ -1,0 +1,94 @@
+.gameContainer {
+
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+ 
+  }
+  
+  .gameText {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    font-size: 3rem;
+    color: aliceblue;
+    
+  }  
+
+  .counter {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 1rem;
+    color: aliceblue;;
+    
+  }  
+
+  .invisibleCounter {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 1rem;
+    color: rgba(240, 248, 255, 0);
+    
+  }  
+
+  .answer {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: #2fb497;
+    
+  }  
+  .notAnswer {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: rgba(240, 248, 255, 0);
+    user-select: none;
+    
+  }  
+  
+  /* Hover effect */
+  .resetButton:hover {
+    background-color: #917f99; 
+  }
+
+  .buttonsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenText {
+  color: #8ddb84; /* or this #2fb497*/
+}
+
+
+/* CSS */
+.resetButton {
+  background: #b998b3;
+  border-radius: 999px;
+  box-shadow: #b998b3 0 10px 20px -15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family:  'Y2K Neophyte', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  opacity: 0.9;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
