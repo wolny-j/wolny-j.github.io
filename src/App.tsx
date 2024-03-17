@@ -1,10 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Header from './Components/Header';
 import GameContent from './Components/GameContent';
-import './CSS/mainPage.css'
 import Footer from './Components/Footer';
+
+import './CSS/App.css'
 
 function App() {
   return (

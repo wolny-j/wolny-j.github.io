@@ -27,19 +27,29 @@
     
   }  
 
+  .counter2 {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: aliceblue;;
+    
+  }  
+
   .invisibleCounter {
     font-family: 'Y2K Neophyte', sans-serif;
     text-align: center;
     padding-bottom: 4rem;
     font-size: 1rem;
     color: rgba(240, 248, 255, 0);
-    
+    user-select: none;
   }  
 
   .answer {
     font-family: 'Y2K Neophyte', sans-serif;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
     font-size: 2rem;
     color: #2fb497;
     

@@ -5,5 +5,16 @@
     bottom: 10px;
     width: 100%;
     font-size: 1.2rem;
-    color: #b998b3;
+    color: #b998b37e;
+}
+
+.footerTextRight {
+    font-family: 'Y2K Neophyte', sans-serif;
+    text-align: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #b998b37e;
 }

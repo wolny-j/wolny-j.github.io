@@ -27,15 +27,26 @@
 
   .helpIcon {
     position: absolute;
-    top: 1%; /* Adjust the top position to provide spacing from the top */
-    right:5%; /* Adjust the right position to place it in the top right corner */
+    top: 1%;
+    right: 5%;
     display: inline-block;
-    cursor: pointer;
-    
+    cursor: auto;
     color: aliceblue;
     font-family: 'Y2K Neophyte', sans-serif;
     font-size: 2rem;
-  }
+    
+}
+
 .helpIcon:hover {
-  cursor: auto; /* Change cursor to normal on hover */
+    cursor: help;
+    animation: breathe 1s infinite alternate
+}
+
+@keyframes breathe {
+    0% {
+        transform: scale(1); /* Initial scale */
+    }
+    100% {
+        transform: scale(1.3); /* Scale up */
+    }
 }

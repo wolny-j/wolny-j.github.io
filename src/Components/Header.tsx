@@ -1,14 +1,10 @@
 // Header.js
-import { useEffect, useState } from "react";
-import Popup from "./popUp"; // Adjust the path accordingly
+import { useState } from "react";
+import Popup from "./popUp";
 import "../CSS/header.css";
 
 function Header() {
   const [isHovered, setIsHovered] = useState(false);
-
-  useEffect(() => {
-    console.log("hello");
-  }, [isHovered]);
 
   return (
     <div>
@@ -25,8 +21,6 @@ function Header() {
       >
         Find all anagrams of the word given
       </p>
-      
-
 
       {isHovered && <Popup />}
     </div>

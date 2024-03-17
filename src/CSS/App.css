@@ -5,6 +5,5 @@ body, html {
 }
 
 .page {
-    /* You can remove the background-color from here, as it's now set for the entire page in body, html */
     min-height: 100vh;
 }
